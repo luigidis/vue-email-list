@@ -10,7 +10,9 @@
 </head>
 <body>
     <div id="app">
-        Email ==> {{randomEmail}}
+        <div v-for="email in randomEmail">
+        Email ==> {{email}}
+        </div>
     </div>
     <script src="./js/app.js"></script>
 </body>
