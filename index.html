@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="app">
-        <ol v-if="randomEmail.lenght===9">
+        <ol v-if="randomEmail.length >= 10">
             <li v-for="email in randomEmail">
                 Email ==> {{email}}
             </li>
